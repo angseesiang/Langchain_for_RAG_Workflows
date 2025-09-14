@@ -30,7 +30,7 @@ sample corpus.
 ### 1) Clone this repository
 
 ``` bash
-git clone https://github.com/your-username/langchain-rag-workflows.git
+git clone https://github.com/angseesiang/langchain-rag-workflows.git
 cd langchain-rag-workflows
 ```
 
