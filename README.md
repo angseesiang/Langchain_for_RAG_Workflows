@@ -5,8 +5,7 @@
 [![LangChain](https://img.shields.io/badge/LangChain-RAG-green)](#)
 
 This repository contains my training exercise on building
-**Retrieval-Augmented Generation (RAG)** workflows using **LangChain**.\
-The notebook demonstrates how to load, chunk, embed, and query text data
+**Retrieval-Augmented Generation (RAG)** workflows using **LangChain**.The notebook demonstrates how to load, chunk, embed, and query text data
 using a language model, with **Alice's Adventures in Wonderland** as the
 sample corpus.
 
@@ -48,18 +47,30 @@ venv\Scripts\activate    # On Windows
 pip install -r requirements.txt
 ```
 
-### 4) Launch Jupyter Notebook
+### 4) Launch Jupyter Notebook locally
 
 ``` bash
 jupyter notebook Langchain_for_RAG_Workflows.ipynb
 ```
 
+### 5) Open in Google Colab (optional)
+
+If you prefer running the notebook online, you can open it directly in
+[Google Colab](https://colab.research.google.com/github/angseesiang/langchain-rag-workflows/blob/main/Langchain_for_RAG_Workflows.ipynb)
+without local setup. This allows you to experiment in a cloud environment
+instantly.
+
 ------------------------------------------------------------------------
 
 ## 🛠️ Requirements
 
-Core dependencies include: - `langchain` - `openai` - `tiktoken` -
-`faiss` or `chromadb` - `jupyter` - `python-dotenv`
+Core dependencies include:
+- `langchain`
+- `openai`
+- `tiktoken`
+- `faiss` or `chromadb`
+- `jupyter`
+- `python-dotenv`
 
 *(Exact dependencies should be listed in `requirements.txt` if
 provided.)*
@@ -79,6 +90,5 @@ provided.)*
 
 ## 📜 License
 
-This project is for **educational purposes** only.\
-*Alice's Adventures in Wonderland* is in the public domain via Project
+This project is for **educational purposes** only.*Alice's Adventures in Wonderland* is in the public domain via Project
 Gutenberg.
